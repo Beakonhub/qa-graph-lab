@@ -1,0 +1,3 @@
+neo4j
+python-dotenv
+pip install neo4j-aura-cli
