@@ -1,3 +1,6 @@
 neo4j
 python-dotenv
+networkx
+numpy
+scipy
 pip install neo4j-aura-cli

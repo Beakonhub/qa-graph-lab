@@ -1,0 +1,556 @@
+{
+  "facts": [
+    {
+      "test_name": "test_app_and_database_bootstrap",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\test_backend.py",
+      "calls": [
+        "create_all"
+      ]
+    },
+    {
+      "test_name": "test_task_lifecycle_and_completion_tracking",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\test_backend.py",
+      "calls": [
+        "add",
+        "close",
+        "commit",
+        "refresh"
+      ]
+    },
+    {
+      "test_name": "test_duplicate_category_name_for_same_user_is_rejected",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\test_categories.py",
+      "calls": [
+        "close",
+        "get"
+      ]
+    },
+    {
+      "test_name": "test_same_category_name_allowed_across_different_users",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\test_categories.py",
+      "calls": [
+        "close"
+      ]
+    },
+    {
+      "test_name": "test_deleting_category_nulls_category_id_on_its_tasks",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\test_categories.py",
+      "calls": [
+        "close"
+      ]
+    },
+    {
+      "test_name": "test_percentage_renders_as_given",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\test_donut.py",
+      "calls": []
+    },
+    {
+      "test_name": "test_percentage_clamps_above_100",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\test_donut.py",
+      "calls": []
+    },
+    {
+      "test_name": "test_percentage_clamps_below_0",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\test_donut.py",
+      "calls": []
+    },
+    {
+      "test_name": "test_accepting_an_invite_upserts_a_collaborator",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\test_invites.py",
+      "calls": [
+        "close",
+        "filter",
+        "first",
+        "query"
+      ]
+    },
+    {
+      "test_name": "test_revoking_a_non_pending_invite_returns_a_conflict_error",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\test_invites.py",
+      "calls": [
+        "close",
+        "get"
+      ]
+    },
+    {
+      "test_name": "test_full_page_smoke",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\test_smoke_flow.py",
+      "calls": [
+        "get"
+      ]
+    },
+    {
+      "test_name": "test_anonymous_pages_redirect_to_login",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\test_smoke_flow.py",
+      "calls": [
+        "get"
+      ]
+    },
+    {
+      "test_name": "test_task_api_lifecycle",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\test_smoke_flow.py",
+      "calls": [
+        "delete",
+        "get",
+        "json",
+        "patch",
+        "post"
+      ]
+    },
+    {
+      "test_name": "test_category_api_duplicate_and_cascade",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\test_smoke_flow.py",
+      "calls": [
+        "delete",
+        "get",
+        "json",
+        "post"
+      ]
+    },
+    {
+      "test_name": "test_invite_and_collaborator_flow",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\test_smoke_flow.py",
+      "calls": [
+        "get",
+        "json",
+        "patch",
+        "post"
+      ]
+    },
+    {
+      "test_name": "test_profile_update_api",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\test_smoke_flow.py",
+      "calls": [
+        "get",
+        "json",
+        "patch"
+      ]
+    },
+    {
+      "test_name": "test_unauthorized_api_returns_json_error",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\test_smoke_flow.py",
+      "calls": [
+        "get",
+        "json"
+      ]
+    },
+    {
+      "test_name": "test_returns_zero_when_there_are_no_tasks",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\test_stats.py",
+      "calls": []
+    },
+    {
+      "test_name": "test_computes_rounded_percentages_from_live_counts",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\test_stats.py",
+      "calls": []
+    },
+    {
+      "test_name": "test_handles_a_single_task_in_one_status",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\test_stats.py",
+      "calls": []
+    },
+    {
+      "test_name": "test_user_can_create_and_search_tasks",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\test_tasks.py",
+      "calls": [
+        "add",
+        "close",
+        "commit",
+        "refresh"
+      ]
+    },
+    {
+      "test_name": "test_auth_and_category_seed_behavior",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\test_tasks.py",
+      "calls": [
+        "add",
+        "close",
+        "commit",
+        "refresh"
+      ]
+    },
+    {
+      "test_name": "test_create_task_schema_accepts_a_minimal_valid_task",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\test_validations.py",
+      "calls": []
+    },
+    {
+      "test_name": "test_create_task_schema_rejects_an_empty_title",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\test_validations.py",
+      "calls": [
+        "raises"
+      ]
+    },
+    {
+      "test_name": "test_create_task_schema_rejects_an_invalid_image_url",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\test_validations.py",
+      "calls": [
+        "raises"
+      ]
+    },
+    {
+      "test_name": "test_login_schema_rejects_a_short_password",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\test_validations.py",
+      "calls": [
+        "raises"
+      ]
+    },
+    {
+      "test_name": "test_signup_schema_accepts_a_valid_payload",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\test_validations.py",
+      "calls": []
+    },
+    {
+      "test_name": "test_create_category_schema_defaults_the_color",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\test_validations.py",
+      "calls": []
+    },
+    {
+      "test_name": "test_create_category_schema_rejects_an_invalid_hex_color",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\test_validations.py",
+      "calls": [
+        "raises"
+      ]
+    },
+    {
+      "test_name": "test_redirects_an_anonymous_user_away_from_a_protected_route",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\e2e\\test_auth.py",
+      "calls": [
+        "compile",
+        "goto",
+        "to_have_url"
+      ]
+    },
+    {
+      "test_name": "test_signup_creates_an_account_and_lands_on_the_dashboard",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\e2e\\test_auth.py",
+      "calls": [
+        "compile",
+        "get_by_text",
+        "to_be_visible",
+        "to_have_url"
+      ]
+    },
+    {
+      "test_name": "test_login_rejects_an_incorrect_password",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\e2e\\test_auth.py",
+      "calls": [
+        "clear_cookies",
+        "click",
+        "compile",
+        "fill",
+        "get_by_label",
+        "get_by_role",
+        "get_by_text",
+        "goto",
+        "to_be_visible",
+        "to_have_url"
+      ]
+    },
+    {
+      "test_name": "test_deleting_a_category_nulls_category_id_on_its_tasks_instead_of_deleting_them",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\e2e\\test_category_delete.py",
+      "calls": [
+        "count",
+        "delete",
+        "filter",
+        "get",
+        "get_by_test_id",
+        "goto",
+        "json",
+        "post"
+      ]
+    },
+    {
+      "test_name": "test_duplicate_category_name_for_the_same_user_is_rejected_with_409",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\e2e\\test_category_duplicate.py",
+      "calls": [
+        "post"
+      ]
+    },
+    {
+      "test_name": "test_the_same_category_name_is_allowed_across_different_users",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\e2e\\test_category_duplicate.py",
+      "calls": [
+        "close",
+        "new_context",
+        "new_page",
+        "post"
+      ]
+    },
+    {
+      "test_name": "test_creates_a_category_and_filters_my_task_by_it",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\e2e\\test_category_filter.py",
+      "calls": [
+        "click",
+        "compile",
+        "fill",
+        "filter",
+        "get_by_label",
+        "get_by_role",
+        "get_by_test_id",
+        "get_by_text",
+        "goto",
+        "locator",
+        "select_option",
+        "to_be_visible",
+        "to_have_url"
+      ]
+    },
+    {
+      "test_name": "test_accepted_invites_collaborator_avatar_renders_on_the_welcome_banner",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\e2e\\test_collaborators.py",
+      "calls": [
+        "close",
+        "goto",
+        "json",
+        "locator",
+        "new_context",
+        "new_page",
+        "patch",
+        "post",
+        "reload",
+        "to_be_visible",
+        "to_contain_text",
+        "to_have_count"
+      ]
+    },
+    {
+      "test_name": "test_completed_task_panel_shows_completed_tasks_with_relative_time",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\e2e\\test_dashboard.py",
+      "calls": [
+        "compile",
+        "filter",
+        "get_by_test_id",
+        "get_by_text",
+        "goto",
+        "post",
+        "to_be_visible",
+        "to_contain_text"
+      ]
+    },
+    {
+      "test_name": "test_invite_button_opens_a_dialog_that_creates_a_pending_invite",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\e2e\\test_invite_dialog.py",
+      "calls": [
+        "click",
+        "compile",
+        "fill",
+        "get",
+        "get_by_label",
+        "get_by_role",
+        "get_by_text",
+        "goto",
+        "json",
+        "to_be_visible"
+      ]
+    },
+    {
+      "test_name": "test_logout_clears_the_session_and_protects_routes_again",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\e2e\\test_logout.py",
+      "calls": [
+        "click",
+        "compile",
+        "get_by_role",
+        "goto",
+        "to_have_url"
+      ]
+    },
+    {
+      "test_name": "test_settings_shows_the_empty_state_when_no_invites_have_been_sent",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\e2e\\test_settings_invites.py",
+      "calls": [
+        "get_by_text",
+        "goto",
+        "to_be_visible"
+      ]
+    },
+    {
+      "test_name": "test_settings_lists_a_sent_invite_and_lets_the_user_revoke_it",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\e2e\\test_settings_invites.py",
+      "calls": [
+        "click",
+        "compile",
+        "filter",
+        "get",
+        "get_by_role",
+        "get_by_text",
+        "goto",
+        "json",
+        "locator",
+        "post",
+        "to_be_visible",
+        "to_contain_text",
+        "to_have_count"
+      ]
+    },
+    {
+      "test_name": "test_profile_form_updates_name_and_avatar_and_persists_across_reload",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\e2e\\test_settings_profile.py",
+      "calls": [
+        "click",
+        "fill",
+        "get",
+        "get_by_label",
+        "get_by_role",
+        "get_by_text",
+        "goto",
+        "json",
+        "reload",
+        "to_be_visible",
+        "to_have_value"
+      ]
+    },
+    {
+      "test_name": "test_completed_at_is_stamped_on_completed_and_cleared_when_moved_off_it",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\e2e\\test_task_completion.py",
+      "calls": [
+        "json",
+        "patch",
+        "post",
+        "total_seconds",
+        "utcnow"
+      ]
+    },
+    {
+      "test_name": "test_create_edit_and_delete_a_task_from_my_task",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\e2e\\test_task_crud.py",
+      "calls": [
+        "accept",
+        "click",
+        "compile",
+        "fill",
+        "filter",
+        "get_by_label",
+        "get_by_role",
+        "get_by_test_id",
+        "goto",
+        "once",
+        "to_be_visible",
+        "to_have_count"
+      ]
+    },
+    {
+      "test_name": "test_search_filters_my_task_by_title_or_description_match",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\e2e\\test_task_search.py",
+      "calls": [
+        "filter",
+        "get_by_test_id",
+        "goto",
+        "post",
+        "to_be_visible",
+        "to_have_count"
+      ]
+    },
+    {
+      "test_name": "test_header_search_bar_navigates_to_my_task_with_the_query_applied",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\e2e\\test_task_search.py",
+      "calls": [
+        "compile",
+        "fill",
+        "filter",
+        "get_by_role",
+        "get_by_test_id",
+        "goto",
+        "post",
+        "press",
+        "to_be_visible",
+        "to_have_url"
+      ]
+    },
+    {
+      "test_name": "test_vital_task_shows_empty_state_when_no_vital_tasks_exist",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\e2e\\test_vital_task.py",
+      "calls": [
+        "get_by_test_id",
+        "get_by_text",
+        "goto",
+        "to_be_visible",
+        "to_have_count"
+      ]
+    },
+    {
+      "test_name": "test_starring_a_task_in_my_task_surfaces_it_on_vital_task",
+      "module_path": "C:\\Users\\tunde\\todo-list\\tests\\e2e\\test_vital_task.py",
+      "calls": [
+        "filter",
+        "get_by_test_id",
+        "get_by_text",
+        "goto",
+        "json",
+        "patch",
+        "post",
+        "to_be_visible",
+        "to_have_count"
+      ]
+    }
+  ],
+  "graph_metrics": {
+    "top_degree": [
+      {
+        "node": "goto",
+        "degree": 16
+      },
+      {
+        "node": "to_be_visible",
+        "degree": 14
+      },
+      {
+        "node": "get",
+        "degree": 13
+      },
+      {
+        "node": "post",
+        "degree": 13
+      },
+      {
+        "node": "json",
+        "degree": 12
+      }
+    ],
+    "betweenness": [
+      {
+        "node": "test_app_and_database_bootstrap",
+        "score": 0.0
+      },
+      {
+        "node": "create_all",
+        "score": 0.0
+      },
+      {
+        "node": "test_task_lifecycle_and_completion_tracking",
+        "score": 0.0
+      },
+      {
+        "node": "add",
+        "score": 0.0
+      },
+      {
+        "node": "close",
+        "score": 0.0
+      }
+    ],
+    "page_rank": [
+      {
+        "node": "get",
+        "score": 0.042519258438687264
+      },
+      {
+        "node": "close",
+        "score": 0.0383887520937054
+      },
+      {
+        "node": "raises",
+        "score": 0.0360662812106526
+      },
+      {
+        "node": "post",
+        "score": 0.028667127179388206
+      },
+      {
+        "node": "json",
+        "score": 0.02436527770282448
+      }
+    ]
+  }
+}

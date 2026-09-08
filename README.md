@@ -56,3 +56,7 @@ This script will:
 - If `REPO_PATH` is not valid, the script raises a clear error.
 - 
 ## Most load-bearing function
+![alt text](<visualisation .png>)
+
+## goto is the chokepoint
+<video controls src="goto_observation.mp4" title="Title"></video>
