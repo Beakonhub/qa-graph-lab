@@ -13,7 +13,7 @@ This project builds a Neo4j knowledge graph from Python test files and stores gr
 1. Create and activate a virtual environment:
 
 ```powershell
-cd "C:\Users\tunde\qa-graph-lab"
+cd "C:\Users\user\qa-graph-lab"
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 ```
@@ -31,7 +31,7 @@ python -m pip install -r requirements.txt
 URI=neo4j+s://<your-instance>.databases.neo4j.io
 AUTH_USERNAME=neo4j
 AUTH_PASSWORD=<your-password>
-REPO_PATH=C:/Users/tunde/qa-graph-lab
+REPO_PATH=C:/Users/user/qa-graph-lab
 ```
 
 ## Run the graph builder
@@ -39,7 +39,7 @@ REPO_PATH=C:/Users/tunde/qa-graph-lab
 From the project root:
 
 ```powershell
-cd "C:\Users\tunde\qa-graph-lab\cypher"
+cd "C:\Users\user\qa-graph-lab\cypher"
 ..\.venv\Scripts\python.exe build_graph.py
 ```
 
