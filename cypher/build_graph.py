@@ -11,9 +11,9 @@ from neo4j import GraphDatabase
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 load_dotenv(PROJECT_ROOT / ".env", override=True)
 
-uri = os.getenv("URI")
-username = os.getenv("AUTH_USERNAME")
-password = os.getenv("AUTH_PASSWORD")
+uri = os.getenv("NEO4J_URI")
+username = os.getenv("NEO4J_USERNAME")
+password = os.getenv("NEO4J_PASSWORD")
 
 def get_repo_path(path=None):
     """

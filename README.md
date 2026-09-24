@@ -28,9 +28,9 @@ python -m pip install -r requirements.txt
 3. Configure Neo4j credentials in the root `.env` file:
 
 ```env
-URI=neo4j+s://<your-instance>.databases.neo4j.io
-AUTH_USERNAME=neo4j
-AUTH_PASSWORD=<your-password>
+NEO4J_URI=neo4j+s://<your-instance>.databases.neo4j.io
+NEO4J_USERNAME=neo4j
+NEO4J_PASSWORD=<your-password>
 REPO_PATH=C:/Users/tunde/qa-graph-lab
 ```
 
